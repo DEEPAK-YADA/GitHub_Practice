@@ -2,7 +2,9 @@
   "name": "github_practice",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:headless":"npx playwright test Practice.spec.ts"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
