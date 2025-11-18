@@ -3,4 +3,3 @@ git clean -fdx
 git reset --hard
 npm install
 npx playwright install
-npm run "$script"
