@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test:headless":"npx playwright test Practice.spec.ts"
+    "test:headless":"npx playwright test Practice.spec.ts",
+    "test:headed":"npx playwright test Practice.spec.ts --headed"
   },
   "keywords": [],
   "author": "",
